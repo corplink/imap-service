@@ -99,7 +99,7 @@
     display: block;
 }
 
-.header__member span:hover .header__member__ul {
+.header__member span:hover .header__member__ul {z
     display: inline-block;
 }
 
