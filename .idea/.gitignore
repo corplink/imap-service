@@ -19,6 +19,8 @@ deployment.xml
 webServers.xml
 vcs.xml
 
+config/db_config.php
+
 # Generated files
 .idea/**/contentModel.xml
 contentModel.xml
