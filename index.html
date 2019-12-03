@@ -1,9 +1,27 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html>
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <title>Index</title>
+    <link rel="stylesheet" href="/static/css/include/include.css">
+    <link rel="stylesheet" href="/static/css/include/index.css">
 </head>
 <body>
+<section class="login-box">
+    <div class="login__columns login__columns-tit">
+        <span class="login-tit">Corp link.</span>
+    </div>
+    <div class="login__columns">
+        <div class="login__column">
+            <input type="text" name="mem_id" placeholder="아이디 또는 이메일" class="input-txt login__input">
+        </div>
+        <div class="login__column">
+            <input type="password" name="mem_password" placeholder="비밀번호" class="input-txt login__input">
+        </div>
+        <div class="login__column">
+            <input type="button" value="로그인" class="btn login__btn" onclick="href='/view/mail/list.html'">
+        </div>
+    </div>
+</section>
 </body>
 </html>
