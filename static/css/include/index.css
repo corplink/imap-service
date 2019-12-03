@@ -1,21 +1,57 @@
 body {
     background-image: url(/static/images/index-bg.jpg);
     background-size: 100%;
-    position: relative;
+    position: relative
 }
 
-.login_box {
+.login-box {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 450px;
+    width: calc(400px - 100px);
+    height: 300px;
+    padding: 50px;
     background-color: rgba(255, 255, 255, 0.5);
-    border-radius: 3px;
+    border-radius: 3px
 }
 
-.login_columns{
-    display:inline-block;
+.login__columns {
+    display: inline-block;
+    width: 100%
+}
+
+.login-tit {
+    font-size: 2.2em;
+    font-weight: 500;
+    color: #222
+}
+
+.login__column:first-child{
+    margin-top:40px;
+}
+
+.login__column {
     width:100%;
+    margin-top: 15px;
+}
+
+.login__input {
+    width: calc(100% - 12px);
+    height: 35px;
+}
+
+.login__column:last-child {
+    margin-top: 30px;
+}
+
+.login__btn {
+    width: 100%;
+    height: 50px;
+    background-color: #287be4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
 }

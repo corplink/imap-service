@@ -7,26 +7,19 @@
     <link rel="stylesheet" href="/static/css/include/index.css">
 </head>
 <body>
-<section class="login_box">
-    <div class="login_columns">
-        <span class="title">CORP LINK</span>
+<section class="login-box">
+    <div class="login__columns login__columns-tit">
+        <span class="login-tit">Corp link.</span>
     </div>
-
-    <div class="login_columns">
-        <div style="display:inline-block;">
-            <div class="info_box">
-                <input type="text" name="mem_id" placeholder="User ID" class="input_txt"
-                       onkeydown="login_event()">
-            </div>
-
-            <div class="info_box">
-                <input type="password" name="mem_password" placeholder="Password" class="input_txt"
-                       onkeydown="login_event()">
-            </div>
+    <div class="login__columns">
+        <div class="login__column">
+            <input type="text" name="mem_id" placeholder="이메일" class="input-txt login__input">
         </div>
-
-        <div class='btn'>
-            <input type="button" value="Login" class="btn_login" onclick="login()">
+        <div class="login__column">
+            <input type="password" name="mem_password" placeholder="비밀번호" class="input-txt login__input">
+        </div>
+        <div class="login__column">
+            <input type="button" value="로그인" class="btn login__btn">
         </div>
     </div>
 </section>
