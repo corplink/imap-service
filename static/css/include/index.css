@@ -9,8 +9,8 @@ body {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: calc(400px - 100px);
-    height: 300px;
+    width: 400px;
+    min-height: 380px;
     padding: 50px;
     background-color: rgba(255, 255, 255, 0.5);
     border-radius: 3px
@@ -37,8 +37,8 @@ body {
 }
 
 .login__input {
-    width: calc(100% - 12px);
-    height: 35px;
+    width: 100%;
+    height: 40px;
 }
 
 .login__input:focus {
