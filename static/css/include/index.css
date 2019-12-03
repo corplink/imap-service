@@ -27,18 +27,22 @@ body {
     color: #222
 }
 
-.login__column:first-child{
-    margin-top:40px;
+.login__column:first-child {
+    margin-top: 40px;
 }
 
 .login__column {
-    width:100%;
+    width: 100%;
     margin-top: 15px;
 }
 
 .login__input {
     width: calc(100% - 12px);
     height: 35px;
+}
+
+.login__input:focus {
+    border-color: #287be4;
 }
 
 .login__column:last-child {
