@@ -1,0 +1,17 @@
+.tab {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #aacdee;
+    height: 53px;
+    margin-left: 250px;
+    width: calc(100% - 250px);
+    padding-left: 20px;
+}
+
+.tab__ul > li {
+    float: left;
+}
+
+.tab__ul > li > button, .tab__ul > li > select {
+    padding: 3px 5px;
+}
